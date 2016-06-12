@@ -73,5 +73,19 @@ namespace BUS
         {
             return objHocVien.FindTenHV_ChinhThuc_TheoMaLop_TenHV(malop, tenhv);
         }
+        public DataTable FindTenHV_ConNoHP(string tenhv)
+        {
+            return objHocVien.FindTenHV_ConNoHP(tenhv);
+        }
+        public DataTable GetAllHocVienConNoHP_ChiTiet()
+        {
+            return objHocVien.GetAllHocVienConNoHP_ChiTiet();
+        }
+        public bool Edit_NoHP_HocVien(string mahocvien, double nohp)
+        {
+            return objHocVien.Edit_NoHP_HocVien(mahocvien, nohp);
+        }
+
+
     }
 }
