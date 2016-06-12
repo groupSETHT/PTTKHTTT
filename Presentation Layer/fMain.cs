@@ -534,6 +534,19 @@ namespace Presentation_Layer
             else
                 _fDSCL.Activate();
         }
+        public static fLapPhieuThuHocPhi _fLPTHP = null;
+        public static void ShowFormLPTHP(fMain MF)
+        {
+            if (_fLPTHP == null || _fLPTHP.IsDisposed)
+            {
+                _fLPTHP = new fLapPhieuThuHocPhi();
+
+                _fLPTHP.MdiParent = MF;
+                _fLPTHP.Show();
+            }
+            else
+                _fLPTHP.Activate();
+        }
 
         //CLOSE FORM CHILD
         public bool CloseForm(Form F)
@@ -1063,6 +1076,12 @@ namespace Presentation_Layer
         {
             if (CloseForm(_fBCHP))
                 ShowFormBCHP(this);
+        }
+
+        private void btnLapPhieuThuHocPhi_Click(object sender, EventArgs e)
+        {
+            if (CloseForm(_fLPTHP))
+                ShowFormLPTHP(this);
         }
        
     }
