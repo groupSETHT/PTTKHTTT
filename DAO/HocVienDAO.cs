@@ -318,64 +318,6 @@ namespace DAO
             }
             return null;
         }
-        public DataTable GetAllHocVienConNoHP_ChiTiet()
-        {
-            try
-            {
-                if (conn.State != ConnectionState.Open)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("HocVien_GetAllHocVienConNoHP_ChiTiet", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataAdapter da = new SqlDataAdapter();
-                da.SelectCommand = cmd;
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                dt.Columns.Add("STT");
-                for (int i = 0; i < dt.Rows.Count; i++)
-                {
-                    dt.Rows[i]["STT"] = i + 1;
-                }
-                conn.Close();
-                return dt;
-            }
-            catch
-            {
-                conn.Close();
-            }
-            return null;
-        }
-        public DataTable FindTenHV_ConNoHP(string tenhv)
-        {
-            try
-            {
-                if (conn.State != ConnectionState.Open)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("HocVien_FindHVConNoHP_ChiTiet", conn);
-
-                cmd.Parameters.Add("@TenHV", SqlDbType.NVarChar).Value = tenhv;
-
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.ExecuteNonQuery();
-                SqlDataAdapter da = new SqlDataAdapter();
-                da.SelectCommand = cmd;
-                DataTable dt = new DataTable();
-
-                da.Fill(dt);
-
-                dt.Columns.Add("STT");
-                for (int i = 0; i < dt.Rows.Count; i++)
-                {
-                    dt.Rows[i]["STT"] = i + 1;
-                }
-                conn.Close();
-                return dt;
-            }
-            catch
-            {
-                conn.Close();
-            }
-            return null;
-        }
         public bool Edit_MaLop_HocVien(string mahocvien, string malop)
         {
             try
@@ -386,27 +328,6 @@ namespace DAO
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@MaHV", SqlDbType.VarChar).Value = mahocvien;
                 cmd.Parameters.Add("@MaLop", SqlDbType.NVarChar).Value = malop;
-                cmd.ExecuteNonQuery();
-                conn.Close();
-                return true;
-            }
-            catch (Exception e)
-            {
-                conn.Close();
-                Console.WriteLine(e);
-                return false;
-            }
-        }
-        public bool Edit_NoHP_HocVien(string mahocvien, double nohp)
-        {
-            try
-            {
-                if (conn.State != ConnectionState.Open)
-                    conn.Open();
-                SqlCommand cmd = new SqlCommand("HocVien_Edit_NoHP", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add("@MaHV", SqlDbType.VarChar).Value = mahocvien;
-                cmd.Parameters.Add("@NoHP", SqlDbType.Money).Value = nohp;
                 cmd.ExecuteNonQuery();
                 conn.Close();
                 return true;
@@ -512,6 +433,49 @@ namespace DAO
                 conn.Close();
             }
             return null;
+        }
+        public DataTable GetAllHocVienTiemNang_ChiTiet_BaoCao(string month, string year)
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+                SqlCommand cmd = new SqlCommand("HocVien_GetAll_HocVienTiemNang_BaoCao", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Month", SqlDbType.Int).Value = int.Parse(month);
+                cmd.Parameters.Add("@Year", SqlDbType.Int).Value = int.Parse(year);
+                SqlDataAdapter da = new SqlDataAdapter();
+                da.SelectCommand = cmd;
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                conn.Close();
+                return dt;
+                conn.Close();
+                return dt;
+            }
+            catch
+            {
+                conn.Close();
+            }
+            return null;
+        }
+        public int GetSoLuong_HocVien_BaoCao(string month, string year)
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+                SqlCommand cmd = new SqlCommand("HocVien_SoLuongHVTimNang_BaoCao", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Month", SqlDbType.Int).Value = int.Parse(month);
+                cmd.Parameters.Add("@Year", SqlDbType.Int).Value = int.Parse(year);
+                return (int)cmd.ExecuteScalar();
+            }
+            catch
+            {
+                conn.Close();
+            }
+            return -1;
         }
     }
 }

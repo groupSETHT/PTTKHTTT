@@ -278,6 +278,19 @@ namespace Presentation_Layer
             else
                 _fTLKT.Activate();
         }
+        public static fBaoCaoHocVienDangKyMoi _fBCHVDK = null;
+        public static void ShowFormBCHVDK(fMain MF)
+        {
+            if (_fBCHVDK == null || _fBCHVDK.IsDisposed)
+            {
+                _fBCHVDK = new fBaoCaoHocVienDangKyMoi();
+                //  _fBCHVDK.RefToMainForm = MF;
+                _fBCHVDK.MdiParent = MF;
+                _fBCHVDK.Show();
+            }
+            else
+                _fBCHVDK.Activate();
+        }
         public static fSuaLoaiKyThi _fSLKT = null;
         public static void ShowFormSLKT(fMain MF)
         {
@@ -495,6 +508,19 @@ namespace Presentation_Layer
                 _fDSL.Activate();
         }
 
+        public static fBaoCaoTongHocPhiLop _fBCHP = null;
+        public static void ShowFormBCHP(fMain MF)
+        {
+            if (_fBCHP == null || _fBCHP.IsDisposed)
+            {
+                _fBCHP = new fBaoCaoTongHocPhiLop();
+
+                _fBCHP.MdiParent = MF;
+                _fBCHP.Show();
+            }
+            else
+                _fBCHP.Activate();
+        }
         public static fDSCacLopHoc _fDSCL = null;
         public static void ShowFormDSCL(fMain MF)
         {
@@ -507,19 +533,6 @@ namespace Presentation_Layer
             }
             else
                 _fDSCL.Activate();
-        }
-        public static fLapPhieuThuHocPhi _fLPTHP = null;
-        public static void ShowFormLPTHP(fMain MF)
-        {
-            if (_fLPTHP == null || _fLPTHP.IsDisposed)
-            {
-                _fLPTHP = new fLapPhieuThuHocPhi();
-
-                _fLPTHP.MdiParent = MF;
-                _fLPTHP.Show();
-            }
-            else
-                _fLPTHP.Activate();
         }
 
         //CLOSE FORM CHILD
@@ -565,6 +578,13 @@ namespace Presentation_Layer
                 if ((_fSHVTN != null) && (!_fSHVTN.IsDisposed))
                 {
                     _fSHVTN.Close();
+                }
+            }
+            if (_fBCHVDK != F)
+            {
+                if ((_fBCHVDK != null) && (!_fBCHVDK.IsDisposed))
+                {
+                    _fBCHVDK.Close();
                 }
             }
             if (_fTHVCT != F)
@@ -788,11 +808,11 @@ namespace Presentation_Layer
                     _fDSCL.Close();
                 }
             }
-            if (_fLPTHP != F)
+            if (_fBCHP != F)
             {
-                if ((_fLPTHP != null) && (!_fLPTHP.IsDisposed))
+                if ((_fBCHP != null) && (!_fBCHP.IsDisposed))
                 {
-                    _fLPTHP.Close();
+                    _fBCHP.Close();
                 }
             }
             return true;
@@ -1033,10 +1053,16 @@ namespace Presentation_Layer
                 ShowFormDSCL(this);
         }
 
-        private void btnLapPhieuThuHocPhi_Click(object sender, EventArgs e)
+        private void buttonItem1_Click(object sender, EventArgs e)
         {
-            if (CloseForm(_fLPTHP))
-                ShowFormLPTHP(this);
+            if (CloseForm(_fBCHVDK))
+                ShowFormBCHVDK(this);
+        }
+
+        private void btnTongHocPhi_Click(object sender, EventArgs e)
+        {
+            if (CloseForm(_fBCHP))
+                ShowFormBCHP(this);
         }
        
     }

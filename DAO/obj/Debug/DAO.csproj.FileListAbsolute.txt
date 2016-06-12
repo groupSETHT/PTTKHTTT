@@ -5,3 +5,10 @@ E:\github\PTTKHTTT_IS201.G24\DAO\bin\Debug\DTO.pdb
 E:\github\PTTKHTTT_IS201.G24\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 E:\github\PTTKHTTT_IS201.G24\DAO\obj\Debug\DAO.dll
 E:\github\PTTKHTTT_IS201.G24\DAO\obj\Debug\DAO.pdb
+E:\PTTKHTTT\DAO\bin\Debug\DAO.dll
+E:\PTTKHTTT\DAO\bin\Debug\DAO.pdb
+E:\PTTKHTTT\DAO\bin\Debug\DTO.dll
+E:\PTTKHTTT\DAO\bin\Debug\DTO.pdb
+E:\PTTKHTTT\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\PTTKHTTT\DAO\obj\Debug\DAO.dll
+E:\PTTKHTTT\DAO\obj\Debug\DAO.pdb

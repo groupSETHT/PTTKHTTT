@@ -53,6 +53,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fBaoCaoHocVienDangKyMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBaoCaoHocVienDangKyMoi.designer.cs">
+      <DependentUpon>fBaoCaoHocVienDangKyMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBaoCaoTongHocPhiLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBaoCaoTongHocPhiLop.Designer.cs">
+      <DependentUpon>fBaoCaoTongHocPhiLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDanhSachHocVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,12 +94,6 @@
     </Compile>
     <Compile Include="fKetQuaThi.Designer.cs">
       <DependentUpon>fKetQuaThi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fLapPhieuThuHocPhi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fLapPhieuThuHocPhi.Designer.cs">
-      <DependentUpon>fLapPhieuThuHocPhi.cs</DependentUpon>
     </Compile>
     <Compile Include="fMain.cs">
       <SubType>Form</SubType>
@@ -295,6 +301,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fBaoCaoHocVienDangKyMoi.resx">
+      <DependentUpon>fBaoCaoHocVienDangKyMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBaoCaoTongHocPhiLop.resx">
+      <DependentUpon>fBaoCaoTongHocPhiLop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fDanhSachHocVien.resx">
       <DependentUpon>fDanhSachHocVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,9 +321,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fKetQuaThi.resx">
       <DependentUpon>fKetQuaThi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fLapPhieuThuHocPhi.resx">
-      <DependentUpon>fLapPhieuThuHocPhi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fMain.resx">
       <DependentUpon>fMain.cs</DependentUpon>
@@ -449,6 +458,10 @@
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{3589440a-b599-4148-bb21-f051fd52b526}</Project>
       <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Report\Report.csproj">
+      <Project>{5a000af5-fd35-474f-affd-931a3ca49d1a}</Project>
+      <Name>Report</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

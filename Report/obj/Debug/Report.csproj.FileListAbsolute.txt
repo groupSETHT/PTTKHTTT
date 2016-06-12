@@ -1,0 +1,5 @@
+E:\PTTKHTTT\Report\bin\Debug\Report.dll
+E:\PTTKHTTT\Report\bin\Debug\Report.pdb
+E:\PTTKHTTT\Report\obj\Debug\Report.csprojResolveAssemblyReference.cache
+E:\PTTKHTTT\Report\obj\Debug\Report.dll
+E:\PTTKHTTT\Report\obj\Debug\Report.pdb

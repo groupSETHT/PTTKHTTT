@@ -51,3 +51,60 @@ E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.csp
 E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.exe
 E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.pdb
 E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fDSCacLopHoc.resources
+E:\PTTKHTTT\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+E:\PTTKHTTT\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\PTTKHTTT\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\PTTKHTTT\Presentation Layer\bin\Debug\BUS.dll
+E:\PTTKHTTT\Presentation Layer\bin\Debug\DTO.dll
+E:\PTTKHTTT\Presentation Layer\bin\Debug\DAO.dll
+E:\PTTKHTTT\Presentation Layer\bin\Debug\BUS.pdb
+E:\PTTKHTTT\Presentation Layer\bin\Debug\DTO.pdb
+E:\PTTKHTTT\Presentation Layer\bin\Debug\DAO.pdb
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fDanhSachHocVien.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fDanhSachLop.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fDSCacLopHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fKetQuaThiCuoiKhoa.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fKetQuaThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fMain.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fNhapKetQuaThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fPhanQuyen.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaChuongTrinhHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaDeThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaGiangVien.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaHocVienChinhThuc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaHocVienTiemNang.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKhoaHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThiCuoiKhoa.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThiXepLop.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaCaHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKyThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLoaiDeThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLoaiKyThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLopHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaPhongHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fSuaQuanLy.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemChuongTrinhHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemDeThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemGiangVien.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemHocVienChinhThuc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemHocVienTiemNang.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemKhoaHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemKetQuaThiCuoiKhoa.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemKetQuaThiXepLop.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemCaHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemKyThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemLoaiDeThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemLoaiKyThi.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemLopHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemPhongHoc.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fThemQuanLy.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation Layer.pdb
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fBaoCaoHocVienDangKyMoi.resources
+E:\PTTKHTTT\Presentation Layer\bin\Debug\Report.dll
+E:\PTTKHTTT\Presentation Layer\bin\Debug\Report.pdb
+E:\PTTKHTTT\Presentation Layer\obj\Debug\Presentation_Layer.fBaoCaoTongHocPhiLop.resources

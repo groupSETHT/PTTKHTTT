@@ -134,7 +134,6 @@ namespace Presentation_Layer
                 dataGridViewX1.ClearSelection();
                 resettextbox();
             }
-                
             catch
             {
                 MessageBox.Show("Bạn đã nhập sai thông tin, vui lòng nhập lại  !", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
