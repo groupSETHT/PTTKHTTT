@@ -73,19 +73,13 @@ namespace BUS
         {
             return objHocVien.FindTenHV_ChinhThuc_TheoMaLop_TenHV(malop, tenhv);
         }
-        public DataTable FindTenHV_ConNoHP(string tenhv)
+        public DataTable GetAll_HocVienBaoCao(string month, string year)
         {
-            return objHocVien.FindTenHV_ConNoHP(tenhv);
+            return objHocVien.GetAllHocVienTiemNang_ChiTiet_BaoCao(month, year);
         }
-        public DataTable GetAllHocVienConNoHP_ChiTiet()
+        public int GetSoLuong_HocVien_BaoCao(string month, string year)
         {
-            return objHocVien.GetAllHocVienConNoHP_ChiTiet();
+            return objHocVien.GetSoLuong_HocVien_BaoCao(month, year);
         }
-        public bool Edit_NoHP_HocVien(string mahocvien, double nohp)
-        {
-            return objHocVien.Edit_NoHP_HocVien(mahocvien, nohp);
-        }
-
-
     }
 }

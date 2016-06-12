@@ -7,3 +7,12 @@ E:\github\PTTKHTTT_IS201.G24\BUS\bin\Debug\DTO.pdb
 E:\github\PTTKHTTT_IS201.G24\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 E:\github\PTTKHTTT_IS201.G24\BUS\obj\Debug\BUS.dll
 E:\github\PTTKHTTT_IS201.G24\BUS\obj\Debug\BUS.pdb
+E:\PTTKHTTT\BUS\bin\Debug\BUS.dll
+E:\PTTKHTTT\BUS\bin\Debug\BUS.pdb
+E:\PTTKHTTT\BUS\bin\Debug\DAO.dll
+E:\PTTKHTTT\BUS\bin\Debug\DTO.dll
+E:\PTTKHTTT\BUS\bin\Debug\DAO.pdb
+E:\PTTKHTTT\BUS\bin\Debug\DTO.pdb
+E:\PTTKHTTT\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\PTTKHTTT\BUS\obj\Debug\BUS.dll
+E:\PTTKHTTT\BUS\obj\Debug\BUS.pdb

@@ -273,7 +273,7 @@ namespace DAO
             {
                 if (conn.State != ConnectionState.Open)
                     conn.Open();
-                SqlCommand cmd = new SqlCommand("LopHoc_GetSLHV", conn);
+                SqlCommand cmd = new SqlCommand("LopHoc_SoLuongHocVien", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@MaLop", SqlDbType.VarChar).Value = malop;
                 int dem = (int)cmd.ExecuteScalar();
@@ -306,6 +306,51 @@ namespace DAO
             {
                 conn.Close();
                 return null;
+            }
+        }
+        public DataTable BaoCaoTongHocPhi(string thang,string nam)
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+                SqlCommand cmd = new SqlCommand("LopHoc_BaoCao", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Month", SqlDbType.Int).Value = int.Parse(thang);
+                cmd.Parameters.Add("@Year", SqlDbType.Int).Value = int.Parse(nam);
+                SqlDataAdapter da = new SqlDataAdapter();
+                da.SelectCommand = cmd;
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                conn.Close();
+                return dt;
+            }
+            catch
+            {
+                conn.Close();
+                return null;
+            }
+        }
+        public double TongHocPhi(string malop)
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+                SqlCommand cmd = new SqlCommand("LopHoc_TongHocPhi", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@MaLop", SqlDbType.VarChar).Value = malop;
+                string tongtien = cmd.ExecuteScalar().ToString();
+                double tam = 0;
+                if (tongtien != "")
+                    tam = double.Parse(tongtien);
+                conn.Close();
+                return tam ;
+            }
+            catch
+            {
+                conn.Close();
+                return -1;
             }
         }
     }

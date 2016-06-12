@@ -74,5 +74,13 @@ namespace BUS
         {
             return objLop.FindCT_TheoTen_KhoaHoc_ChuongTrinhHoc(tenlop, makhoa, machuongtrinhhoc);
         }
+        public DataTable BaoCaoTongHocPhi(string thang, string nam)
+        {
+            return objLop.BaoCaoTongHocPhi(thang,nam);
+        }
+        public double TongTien_LopHoc(string malop)
+        {
+            return objLop.TongHocPhi(malop);
+        }
     }
 }
