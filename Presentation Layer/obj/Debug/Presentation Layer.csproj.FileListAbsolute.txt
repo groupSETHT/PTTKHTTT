@@ -1,0 +1,53 @@
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\BUS.dll
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\DTO.dll
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\DAO.dll
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\BUS.pdb
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\DTO.pdb
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\bin\Debug\DAO.pdb
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fDanhSachHocVien.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fDanhSachLop.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fKetQuaThiCuoiKhoa.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fKetQuaThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fMain.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fNhapKetQuaThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fPhanQuyen.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaChuongTrinhHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaDeThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaGiangVien.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaHocVienChinhThuc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaHocVienTiemNang.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKhoaHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThiCuoiKhoa.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKetQuaThiXepLop.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaCaHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaKyThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLoaiDeThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLoaiKyThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaLopHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaPhongHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fSuaQuanLy.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemChuongTrinhHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemDeThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemGiangVien.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemHocVienChinhThuc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemHocVienTiemNang.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemKhoaHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemKetQuaThiCuoiKhoa.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemKetQuaThiXepLop.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemCaHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemKyThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemLoaiDeThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemLoaiKyThi.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemLopHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemPhongHoc.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fThemQuanLy.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation Layer.pdb
+E:\github\PTTKHTTT_IS201.G24\Presentation Layer\obj\Debug\Presentation_Layer.fDSCacLopHoc.resources
